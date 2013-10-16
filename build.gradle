@@ -44,8 +44,3 @@ configurations {
 task wrapper(type: Wrapper) {
   gradleVersion = '1.8'
 }
-
-jar {
-  // Create fat jar with all dependencies.
-  from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-}
