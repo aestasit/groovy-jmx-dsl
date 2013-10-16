@@ -14,7 +14,7 @@ apply from: 'repos.gradle'
 apply from: 'sonar.gradle'
 apply from: 'docs.gradle'
 
-group = 'com.aestasit.groovy'
+group = 'com.aestasit.jmx.groovy.dsl'
 version = '0.1-SNAPSHOT'
 
 sourceCompatibility = '1.6'
