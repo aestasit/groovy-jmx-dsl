@@ -22,13 +22,11 @@ targetCompatibility = '1.6'
 
 dependencies {
   compile localGroovy()  
-  compile 'com.lowagie:iText:2.1.5'
-  compile 'org.jfree:jfreechart-swt:1.0.13'
-  compile 'org.jfree:jfreechart-experimental:1.0.13'
-  compile 'org.jfree:jfreechart:1.0.13'
-  compile 'org.jfree:jcommon-xml:1.0.16'
-  compile 'org.jfree:jcommon:1.0.16'
-  compile 'org.jfree:swtgraphics2d:1.0.13'
+  compile 'com.lowagie:itext:4.2.1'
+  compile 'jfree:jfreechart-swt:1.0.9'
+  compile 'jfree:jfreechart-experimental:1.0.9'
+  compile 'jfree:jfreechart:1.0.13'
+  compile 'jfree:jcommon:1.0.16'
   testCompile 'commons-io:commons-io:1.4'
   testCompile 'junit:junit:4.+'
   testRuntime 'ch.qos.logback:logback-core:1.0.7'
