@@ -31,8 +31,8 @@ dependencies {
   compile 'jfree:jcommon:1.0.16'
   testCompile 'commons-io:commons-io:1.4'
   testCompile 'junit:junit:4.11'
-  testRuntime 'ch.qos.logback:logback-core:1.0.7'
-  testRuntime 'ch.qos.logback:logback-classic:1.0.7'
+  testRuntime 'ch.qos.logback:logback-core:1.1.2'
+  testRuntime 'ch.qos.logback:logback-classic:1.1.2'
 }
 
 configurations {
